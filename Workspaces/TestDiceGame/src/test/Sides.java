@@ -116,7 +116,11 @@ class Sides {
 	private Integer match(Sides s) {
 		
 		if (this.sides.size()>=3) {
-			for (int i=0;i<=2;i++) {
+			/**
+			 * shift the pattern in the main list. Shift the pointer to right and try matching again..
+			 * for instance [1,1,1] to be matched in [2,1,1,1], needs a right shift.
+			 */
+			for (int i=0;i<=(this.size()-3);i++) {
 				if (s.sides.subList(0, 3).equals(this.sides.subList(i, i+3))) {
 					return 0;
 				} 

@@ -3,9 +3,6 @@ helloworld12345
 helloworld123--
 line 3 - change from local
 line 4 - change from remote
-<<<<<<< HEAD
 helloworld9999
 line 6 - change from local
-=======
 helloworld 3456
->>>>>>> 123812555d018fd63fb0adae382bb7fcd02720eb
